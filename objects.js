@@ -15,10 +15,16 @@
 */
 
 //CODE HERE
-
-
-
-
+console.log("//////////////////PROBLEM 1////////////////////");
+let me = {
+  firstName: "Alfonso",
+  state: "Nuevo Leon, Mexico",
+  age: 25,
+  greeter() {
+    console.log(`Hello! My name is ${this.firstName} and I live in ${this.state}`);
+  }
+}
+me.greeter();
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -45,3 +51,22 @@
 */
 
 //CODE HERE
+console.log("//////////////////PROBLEM 2////////////////////");
+function carFactory(make,model,year) {
+  let car = {
+    make: make,
+    model: model,
+    year: year
+  }
+  if(car.year > 2018){
+    car.isNew = true;
+  }else{
+    car.isNew = false;
+  }
+
+  return car
+}
+
+console.log(carFactory("Mazda","3",2018));
+console.log(carFactory("Tesla","Model X",2020));
+console.log(carFactory("Ford","Mustang",1966));
