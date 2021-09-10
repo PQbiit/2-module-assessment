@@ -10,8 +10,9 @@
 */
 
 //CODE HERE
-let gitDefinition = "Git is a version control system used to track changes in any software project's source code files. It also facilitates cooperation between programmers working together on a same project by allowing non-linear development workflows."
-
+console.log("//////////////////PROBLEM 1////////////////////");
+const gitDefinition = "Git is a version control system used to track changes in any software projects source code files. It also facilitates cooperation between programmers working together on a same project by allowing non-linear development workflows.";
+console.log(gitDefinition);
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -19,6 +20,9 @@ let gitDefinition = "Git is a version control system used to track changes in an
 */
 
 //CODE HERE
+console.log("//////////////////PROBLEM 2////////////////////");
+const gitHubDefinition = "GitHub is an online platform that integrates with git and at it's core functions as an online repository for software projects source code.";
+console.log(gitHubDefinition);
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -35,6 +39,12 @@ let gitDefinition = "Git is a version control system used to track changes in an
 */
 
 //CODE HERE
+console.log("//////////////////PROBLEM 3////////////////////");
+let init = {
+    description: "Creates an empty git respository in the current directory.",
+    code: "git init"
+}
+console.log(init);
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -43,6 +53,12 @@ let gitDefinition = "Git is a version control system used to track changes in an
 */
 
 //CODE HERE
+console.log("//////////////////PROBLEM 4////////////////////");
+let clone = {
+    description: "Clones a remote repository into the current directory.",
+    code: "git clone <repo-URL>"
+}
+console.log(clone);
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +67,12 @@ let gitDefinition = "Git is a version control system used to track changes in an
 */
 
 //CODE HERE
+console.log("//////////////////PROBLEM 5////////////////////");
+let status = {
+    description: "Shows the status of the directory currently being tracked",
+    code: "git status"
+}
+console.log(status);
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -59,6 +81,12 @@ let gitDefinition = "Git is a version control system used to track changes in an
 */
 
 //CODE HERE
+console.log("//////////////////PROBLEM 6////////////////////");
+let add = {
+    description: "Adds specified files to the staging area of the working tree",
+    code: "git add <file>"
+}
+console.log(add);
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,7 +95,12 @@ let gitDefinition = "Git is a version control system used to track changes in an
 */
 
 //CODE HERE
-
+console.log("//////////////////PROBLEM 7////////////////////");
+let commit = {
+    description: "Creates a snapshot of the files in the staging area of the working directory and a given message describing the changes",
+    code: "git commit -m <message>"
+}
+console.log(commit);
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -76,3 +109,9 @@ let gitDefinition = "Git is a version control system used to track changes in an
 */
 
 //CODE HERE
+console.log("//////////////////PROBLEM 8////////////////////");
+let push = {
+    description: "Publishes the commited files to the remote repository",
+    code: "git push"
+}
+console.log(push);
