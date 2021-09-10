@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = "Git is a version control system used to track changes in any software project's source code files. It also facilitates cooperation between programmers working together on a same project by allowing non-linear development workflows."
 
 //////////////////PROBLEM 2////////////////////
 /*
