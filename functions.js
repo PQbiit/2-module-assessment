@@ -6,7 +6,11 @@
 */
 
 //CODE HERE
-
+console.log("//////////////////PROBLEM 1////////////////////");
+function sum(num1,num2){
+  return num1 + num2;
+}
+console.log(sum(3,5));
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,6 +21,15 @@
 */
 
 //CODE HERE
+console.log("//////////////////PROBLEM 2////////////////////");
+function greaterThanFive(number) {
+  if(number > 5){
+    return true
+  }else{
+    return false
+  }
+}
+console.log(greaterThanFive(5))
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -27,6 +40,18 @@
 */
 
 //CODE HERE
+console.log("//////////////////PROBLEM 3////////////////////");
+function findZWords(word) {
+  word = word.toLowerCase()
+  if(word[0] === "z"){
+    return "the name begins with Z"
+  }else{
+    return "the name does not begin with Z"
+  }
+}
+console.log(findZWords("Zack"));
+console.log(findZWords("zack"));
+console.log(findZWords("Albert"));
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -36,3 +61,8 @@
 */
 
 //CODE HERE
+console.log("//////////////////PROBLEM 4////////////////////");
+function iLove(name,love) {
+  return `${name} loves ${love}`;
+}
+console.log(iLove("Joseph","Music"));
